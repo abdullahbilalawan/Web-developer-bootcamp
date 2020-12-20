@@ -1,0 +1,22 @@
+body{
+    background-color: lightpink;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#mainNavBar .navbar-brand{
+
+    color: maroon;
+    font-size: 1.5rem;
+    font-weight: 100;
+
+}
+
+
+#mainNavBar .nav-link:hover{
+    color: white;
+}
+
+#mainNavBar .nav-link:hover{
+
+    color: white;
+}

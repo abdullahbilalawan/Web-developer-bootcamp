@@ -1,0 +1,23 @@
+body{
+    font-family: fantasy;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #151b29;
+}
+
+button{
+    background: none;
+    color: #ffa260;
+    border: 3px solid;
+    padding: 1em 2em;
+    transition: 2s;
+}
+
+button:hover{
+
+    border-color: palegreen;
+    box-shadow: 0 0.5em 0.5em 0.5em -0.4em  palegreen;
+    transform: translate(-0.25em);
+}

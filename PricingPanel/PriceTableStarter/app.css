@@ -1,0 +1,85 @@
+    body{
+        background-color: darkblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        min-height: 100vh;
+    }
+
+    html{
+        font-family:sans-serif;
+        box-sizing: border-box;
+    }
+
+
+    .panel{
+        background-color: white;
+        border-radius: 20px;
+        padding: 15px 25 px;
+        max-width: 960px;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        text-transform: uppercase;
+
+
+    }
+
+    .pricing-plan{
+        border-bottom: 1px solid blue;
+    
+    }
+    .pricing-img{
+
+        margin-bottom: 25px;
+        width: 100%;
+
+
+
+    }
+
+    .pricing-features{
+        margin: 50px 0 25px;
+        color: crimson;
+
+    }
+
+    .pricing-features-item{
+        font-weight: 600;
+        letter-spacing: 1px;
+        font-size: 12px;
+        line-height: 15px;
+        border-top: 1px solid coral;
+
+    }
+
+
+    .pricing-price{
+        color: cyan;
+        font-size: 32px;
+        font-weight: 700;
+    }
+    .pricing-button{
+
+        border: 1px solid teal;
+        border-radius: 10px;
+        color: yellow;
+        padding: 15px 35px;
+        margin: 15px;
+
+
+
+    }
+    .pricing-button:hover{
+        background-color: violet;
+        transition: all 200ems ease-out;
+
+    }
+
+
+    @media( min-width:900px){
+        .panel{
+            flex-direction: row;
+        }
+    }

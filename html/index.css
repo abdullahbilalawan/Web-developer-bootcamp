@@ -1,0 +1,59 @@
+h1{
+    color: blueviolet;
+    background-color: chocolate;
+}
+
+#dnf{
+
+    color: bisque;
+}
+
+
+
+
+p{
+    text-align: center;
+
+    font-weight: 700; 
+    text-decoration: #ff7711 underline;
+
+}
+
+*{
+    color: aquamarine;
+}
+
+h1 + p{
+
+    color: black;
+}
+h1::first-letter{
+    color: darksalmon;
+}
+
+
+input[type ="password"]{
+
+    color: blue;
+    
+}
+
+
+button:hover{
+
+    color: crimson;
+    font-size: 10px;
+    color: inherit;
+}
+
+
+div{
+    width: 700px;
+    height: 700px;
+    background-color: lawngreen;
+    border: 4px solid black;
+    border-radius: 10%;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+

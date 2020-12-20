@@ -1,0 +1,38 @@
+h1{
+
+    background-color: blueviolet;
+    border: 1px solid black;
+}
+
+span{
+    position: relative;
+    top: 100px;
+    background-color:rgba(205, 212,89, 0.1);
+    border: 1px solid black;
+    display: block;
+    opacity: 0.5;
+
+}
+
+.circle{
+    width: 300px;
+    height: 100px;
+    background-color: springgreen;
+    border-radius: 50%;
+    transition: 2s;
+}
+
+.circle:hover{
+    background-color: teal;
+    border-radius: 80%;
+    border: 2px solid orange;
+    margin-right: 7000px;
+
+
+
+
+}
+
+div:nth-of-type(1){
+    transition-timing-function: ease-in;
+}
